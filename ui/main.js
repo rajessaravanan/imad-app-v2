@@ -1,3 +1,5 @@
 console.log('Loaded!');
-var element = document.getElementbyId('main-text')
-element.innerHTML = 'New Value for Saravana'
+//Change the text of the main-text div
+var element = document.getElementbyId('main-text');
+
+element.innerHTML = 'New Value for Saravana';
