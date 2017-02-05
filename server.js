@@ -37,14 +37,13 @@ content:`
             This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
         </p>
         },
-saravanathree:{
+        
+saravanathre:{
 title: 'this is my article one by saravana',
 heading: 'fuck you',
 date: 'feb 5, 2017',
 content:`
-<p >
-                is is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
-            </p>
+           
             <p>
                 This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
             </p>
