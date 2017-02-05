@@ -27,7 +27,7 @@ content:`
  heading: 'hello fucks',
 date: 'feb 6, 2017',
 content:`
-<p >
+<p style="font-family:impact">
             is is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
         </p>
         <p>
