@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var  articles = {
-'saravana-one':{
+saravana-one:{
 title: 'this is my article one by saravana',
 heading: 'fuck you',
 date: 'feb 5, 2017',
@@ -22,7 +22,7 @@ content:`
         </p>
             `
 },
-'saravana-two':{
+saravana-two:{
 title: 'this is my article one by saravana',
 heading: 'fuck you 2',
 date: 'feb 5, 2017',
