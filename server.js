@@ -24,7 +24,7 @@ content:`
 },
 'saravana-two':{
 title: 'this is my article one by saravana',
-heading: 'fuck you',
+heading: 'fuck you 2',
 date: 'feb 5, 2017',
 content:`
 <p >
@@ -40,7 +40,7 @@ content:`
         
 'saravana-thre':{
 title: 'this is my article one by saravana',
-heading: 'fuck you',
+heading: 'fuck you 3',
 date: 'feb 5, 2017',
 content:`
            
