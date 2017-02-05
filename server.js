@@ -22,6 +22,22 @@ content:`
         </p>
             `
 },
+'article-two':{
+ title: 'this is my article two by saravana',
+ heading: 'hello fucks',
+date: 'feb 6, 2017',
+content:`
+<p >
+            is is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+        </p>
+        <p>
+            This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+        </p>
+        <p >
+            This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+        </p>
+            `
+},
 
         
 };
