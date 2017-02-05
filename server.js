@@ -6,9 +6,9 @@ var app = express();
 app.use(morgan('combined'));
 
 var  articles = {
-saravanaone:{
+articleone:{
  title: 'this is my article one by saravana',
- heading: 'fuck you',
+ heading: 'hello',
 date: 'feb 5, 2017',
 content:`
 <p >
@@ -76,11 +76,10 @@ app.get('/', function (req, res) {
 });
 
 app.get('/:articleName', function (req,res){
-    // articleName == saravanaone
-    // articles[articleName] == {} content objest for saravanaone
+    // articleName == articleone
+    // articles[articleName] == {} content object for articleone
     var articleName = req.params.articleName;
     res.send(createTemplate(articles(articleName));
-
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
