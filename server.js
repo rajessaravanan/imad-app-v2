@@ -26,7 +26,7 @@ content:`
         
 };
 
-function createTemplate(data){
+function createTemplate (data){
     var title = data.title;
     var date = data.date;
     var heading = data.heading;
@@ -79,7 +79,7 @@ app.get('/:articleName', function (req,res){
     // articleName == article-one
     // articles[articleName] == {} content object for articleone
     var articleName = req.params.articleName;
-    res.send(createTemplate(articles(articleName)));
+    res.send(createTemplate(articles[articleName]));
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
