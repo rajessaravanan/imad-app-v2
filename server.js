@@ -38,20 +38,7 @@ content:`
         </p>
         },
         
-'saravana-thre':{
-title: 'this is my article one by saravana',
-heading: 'fuck you 3',
-date: 'feb 5, 2017',
-content:`
-           
-            <p>
-                This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
-            </p>
-            <p >
-                This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
-            </p>`
-    
-},
+
 };
 
 function createTemplate(data){
