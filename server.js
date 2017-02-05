@@ -36,6 +36,9 @@ content:`
         <p >
             This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
         </p>
+        <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/RussellPeters08TIFF.jpg/220px-RussellPeters08TIFF.jpg">
+        </div>
             `
 },
 
