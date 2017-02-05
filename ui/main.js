@@ -8,5 +8,5 @@ element.innerHTML = 'New Value for Saravana';
 //move the image 
 var img = document.getElementById('madi')
 img.onclick = function(){
-    img.style.marginLeft= '100px';
+    var interval = setinterval(moveLeft, 100);
 };
