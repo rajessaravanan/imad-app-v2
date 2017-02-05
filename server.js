@@ -6,9 +6,9 @@ var app = express();
 app.use(morgan('combined'));
 
 var  articles = {
-saravana-one:{
-title: 'this is my article one by saravana',
-heading: 'fuck you',
+saravanaone:{
+ title: 'this is my article one by saravana',
+ heading: 'fuck you',
 date: 'feb 5, 2017',
 content:`
 <p >
@@ -22,23 +22,8 @@ content:`
         </p>
             `
 },
-saravana-two:{
-title: 'this is my article one by saravana',
-heading: 'fuck you 2',
-date: 'feb 5, 2017',
-content:`
-<p >
-            is is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
-        </p>
-        <p>
-            This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
-        </p>
-        <p >
-            This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
-        </p>
-        },
-        
 
+        
 };
 
 function createTemplate(data){
@@ -47,7 +32,8 @@ function createTemplate(data){
     var heading = data.heading;
     var content = data.content;
 var htmlTemplate =
-`<html>
+`
+<html>
 <head>
     <h1>
     <title>
@@ -94,14 +80,7 @@ app.get('/:articleName', function (req,res){
     // articles[articleName] == {} content objest for saravanaone
     var articleName = req.params.articleName;
     res.send(createTemplate(articles(articleName));
-});
 
-app.get('/article-two', function (req,res){
-    res.send('article two will beserved here');
-});
-
-app.get('/article-three', function (req,res){
-    res.send('article three will beserved here');
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
