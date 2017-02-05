@@ -5,6 +5,23 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var saravanaone = {
+    title: 'this is my article one by saravana',
+    heading: 'saravana One',
+    date: 'feb 5, 2017',
+    content:`
+    <p >
+                    is is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+                </p>
+                <p>
+                    This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+                </p>
+                <p >
+                    This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+                </p>
+                `
+};
+
 function createTemplate(data){
     var title = data.title;
     var date = data.date;
@@ -52,7 +69,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/saravana-one', function (req,res){
-    res.send(createTemplate(saravana-one));
+    res.send(createTemplate(saravanaone));
 });
 
 app.get('/article-two', function (req,res){
