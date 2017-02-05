@@ -5,21 +5,54 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var saravanaone = {
-    title: 'this is my article one by saravana',
-    heading: 'fuck you',
-    date: 'feb 5, 2017',
-    content:`
-    <p >
-                    is is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
-                </p>
-                <p>
-                    This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
-                </p>
-                <p >
-                    This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
-                </p>
-                `
+var  articles = {
+saravanaone:{
+title: 'this is my article one by saravana',
+heading: 'fuck you',
+date: 'feb 5, 2017',
+content:`
+<p >
+            is is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+        </p>
+        <p>
+            This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+        </p>
+        <p >
+            This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+        </p>
+            `
+},
+saravanatwo:{
+title: 'this is my article one by saravana',
+heading: 'fuck you',
+date: 'feb 5, 2017',
+content:`
+<p >
+            is is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+        </p>
+        <p>
+            This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+        </p>
+        <p >
+            This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+        </p>
+        },
+saravanathree:{
+title: 'this is my article one by saravana',
+heading: 'fuck you',
+date: 'feb 5, 2017',
+content:`
+<p >
+                is is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+            </p>
+            <p>
+                This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+            </p>
+            <p >
+                This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,This is my first content,
+            </p>`
+    
+},
 };
 
 function createTemplate(data){
