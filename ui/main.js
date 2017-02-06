@@ -23,4 +23,4 @@ button.onclick = function (){
  
  request.open('GET', 'http://coco98.imad.hasura-app.io/counter', true);
  request.send(null);
-}
+};
