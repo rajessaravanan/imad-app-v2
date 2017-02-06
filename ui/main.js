@@ -18,9 +18,8 @@ button.onclick = function (){
          }
      }
      //Not done yet
- };
+};
  // make the request
- 
  request.open('GET', 'http://coco98.imad.hasura-app.io/counter', true);
  request.send(null);
 };
